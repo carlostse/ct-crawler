@@ -1,11 +1,12 @@
-# CT Web Crawler 
+# CT Web Crawler
+[![Build Status](https://travis-ci.org/carlostse/ct-crawler.svg?branch=master)](https://travis-ci.org/carlostse/ct-crawler)
 
 ### Introduction
-A polite, slim and concurrent web crawler written in Go. 
+A polite, slim and concurrent web crawler written in Go.
 
 ### Dependencies
-* [Google Go (golang)] (https://golang.org)
-* [gocrawl] (https://github.com/PuerkitoBio/gocrawl)
+* [Google Go (golang)](https://golang.org)
+* [gocrawl](https://github.com/PuerkitoBio/gocrawl)
 
 ### Build
 ```bash
@@ -20,6 +21,6 @@ $ ./ctcrawler http://example.com/index.html
 
 ### Know Issues / Future Development
 * Authentication is not implemented and no plan for this
-* URL query is not handled yet 
+* URL query is not handled yet
 
 Enjoy! Welcome for forking and pull request.

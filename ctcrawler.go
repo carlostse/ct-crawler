@@ -16,6 +16,8 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
+const VERSION = "0.1.0"
+
 // only enqueue the paths that matched regular expression
 var rxOk *regexp.Regexp = nil
 
@@ -61,6 +63,8 @@ func (x *FileExtender) Filter(ctx *gocrawl.URLContext, isVisited bool) bool {
 }
 
 func main() {
+	log.Println("version 0.1.0")
+
 	var rx string
 	maxVisit := flag.Int("m", 0, "max. visit(s), default 0, unlimited")
 	delay := flag.Int("d", 500, "delay in ms between each request, default 500")
