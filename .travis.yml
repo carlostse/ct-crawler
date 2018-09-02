@@ -8,3 +8,4 @@ script:
   - go get github.com/PuerkitoBio/gocrawl
   - go get github.com/PuerkitoBio/goquery
   - go test
+  - go build ctcrawler.go
